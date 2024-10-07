@@ -241,7 +241,7 @@ header ul li a:hover{
         z-index: 11;
     }
 
-    .toggle .active{
+    .toggle.active{
         position: fixed;
         right: 20px;
         /* Preemchendo com uma imagem 'fechar' */
