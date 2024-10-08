@@ -1,12 +1,14 @@
-// Primeira parte Habilitado/Desabilitado
-function ToggleMenu(){
+// primeira parte Habilitado/Desabilitado
+function toggleMenu(){
     var menuToggle = document.querySelector('.toggle');
     var links = document.querySelector('.links');
-    // Troca o estado da classe .toggle para .ativo
-    menuToggle.classList.toggle('.active');
-    // Troca o estado da classe .links para ativo
+    // troca o estado da class .toggle para activo
+    menuToggle.classList.toggle('active');
+    // troca o estado da class .links para ativo
     links.classList.toggle('active')
-    // troca o copo grande 
+}
+
+// troca o copo grande 
 function imgSlider(anything){
     document.querySelector('.starbucks').src = anything;
 }
@@ -15,5 +17,4 @@ function imgSlider(anything){
 function changeCircleColor(color){
     const circulo =document.querySelector('.circulo');
     circulo.style.background = color;
-}
 }
